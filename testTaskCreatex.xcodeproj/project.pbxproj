@@ -3,27 +3,65 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24EA72A37E2F08A67AF03290 /* Pods_testTaskCreatex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DB74E976ADBB907CDACD6DF /* Pods_testTaskCreatex.framework */; };
+		F57E5477243CACC400F0CC51 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F57E5476243CACC400F0CC51 /* GoogleService-Info.plist */; };
 		F5920C152438E18500B5F075 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C142438E18500B5F075 /* AppDelegate.swift */; };
 		F5920C172438E18500B5F075 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C162438E18500B5F075 /* SceneDelegate.swift */; };
-		F5920C192438E18500B5F075 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C182438E18500B5F075 /* ViewController.swift */; };
+		F5920C192438E18500B5F075 /* FirstTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C182438E18500B5F075 /* FirstTutorialViewController.swift */; };
 		F5920C1C2438E18500B5F075 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5920C1A2438E18500B5F075 /* Main.storyboard */; };
 		F5920C1E2438E18800B5F075 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5920C1D2438E18800B5F075 /* Assets.xcassets */; };
 		F5920C212438E18800B5F075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5920C1F2438E18800B5F075 /* LaunchScreen.storyboard */; };
+		F5920C292438E1EB00B5F075 /* TutorialPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C282438E1EB00B5F075 /* TutorialPageViewController.swift */; };
+		F5920C2B2438E2A800B5F075 /* SecondTutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C2A2438E2A800B5F075 /* SecondTutorialViewController.swift */; };
+		F5920C2D243A951200B5F075 /* Controllers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C2C243A951200B5F075 /* Controllers.swift */; };
+		F5920C2F243AA07A00B5F075 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C2E243AA07A00B5F075 /* Location.swift */; };
+		F5920C34243B24FD00B5F075 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C33243B24FD00B5F075 /* RootViewController.swift */; };
+		F5920C36243B2D2300B5F075 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C35243B2D2300B5F075 /* LoadingViewController.swift */; };
+		F5920C38243B348100B5F075 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C37243B348100B5F075 /* WeatherViewController.swift */; };
+		F5920C3A243B35DF00B5F075 /* Weather.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5920C39243B35DF00B5F075 /* Weather.storyboard */; };
+		F5920C3E243B48C900B5F075 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C3D243B48C900B5F075 /* API.swift */; };
+		F5920C40243B493500B5F075 /* WeatherAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C3F243B493500B5F075 /* WeatherAPI.swift */; };
+		F5920C43243B548E00B5F075 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C42243B548E00B5F075 /* NetworkService.swift */; };
+		F5920C45243B55ED00B5F075 /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C44243B55ED00B5F075 /* NetworkDataFetcher.swift */; };
+		F5920C47243B57BF00B5F075 /* WeatherInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C46243B57BF00B5F075 /* WeatherInformation.swift */; };
+		F5920C49243B772500B5F075 /* BackgroundActivites.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C48243B772500B5F075 /* BackgroundActivites.swift */; };
+		F5920C4B243B7AB200B5F075 /* Loading.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5920C4A243B7AB200B5F075 /* Loading.storyboard */; };
+		F5920C4D243B7CB700B5F075 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5920C4C243B7CB700B5F075 /* NotificationName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F5920C112438E18500B5F075 /* testTaskCreatex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTaskCreatex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DB74E976ADBB907CDACD6DF /* Pods_testTaskCreatex.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testTaskCreatex.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DBDE22CCBBDC0ED7F69BF84 /* Pods-testTaskCreatex.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTaskCreatex.debug.xcconfig"; path = "Target Support Files/Pods-testTaskCreatex/Pods-testTaskCreatex.debug.xcconfig"; sourceTree = "<group>"; };
+		C6B8E8E6C180B4DDDAC5AF90 /* Pods-testTaskCreatex.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testTaskCreatex.release.xcconfig"; path = "Target Support Files/Pods-testTaskCreatex/Pods-testTaskCreatex.release.xcconfig"; sourceTree = "<group>"; };
+		F57E5475243CACB700F0CC51 /* testTaskCreatex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTaskCreatex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F57E5476243CACC400F0CC51 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F5920C142438E18500B5F075 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F5920C162438E18500B5F075 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		F5920C182438E18500B5F075 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F5920C182438E18500B5F075 /* FirstTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTutorialViewController.swift; sourceTree = "<group>"; };
 		F5920C1B2438E18500B5F075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F5920C1D2438E18800B5F075 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F5920C202438E18800B5F075 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F5920C222438E18800B5F075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5920C282438E1EB00B5F075 /* TutorialPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialPageViewController.swift; sourceTree = "<group>"; };
+		F5920C2A2438E2A800B5F075 /* SecondTutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTutorialViewController.swift; sourceTree = "<group>"; };
+		F5920C2C243A951200B5F075 /* Controllers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controllers.swift; sourceTree = "<group>"; };
+		F5920C2E243AA07A00B5F075 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		F5920C33243B24FD00B5F075 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		F5920C35243B2D2300B5F075 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		F5920C37243B348100B5F075 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		F5920C39243B35DF00B5F075 /* Weather.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Weather.storyboard; sourceTree = "<group>"; };
+		F5920C3D243B48C900B5F075 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		F5920C3F243B493500B5F075 /* WeatherAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAPI.swift; sourceTree = "<group>"; };
+		F5920C42243B548E00B5F075 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		F5920C44243B55ED00B5F075 /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		F5920C46243B57BF00B5F075 /* WeatherInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherInformation.swift; sourceTree = "<group>"; };
+		F5920C48243B772500B5F075 /* BackgroundActivites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundActivites.swift; sourceTree = "<group>"; };
+		F5920C4A243B7AB200B5F075 /* Loading.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Loading.storyboard; sourceTree = "<group>"; };
+		F5920C4C243B7CB700B5F075 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,26 +69,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24EA72A37E2F08A67AF03290 /* Pods_testTaskCreatex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F88C72CBF0ECE7D1211DA54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DB74E976ADBB907CDACD6DF /* Pods_testTaskCreatex.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		296810309175356206D8D50E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0DBDE22CCBBDC0ED7F69BF84 /* Pods-testTaskCreatex.debug.xcconfig */,
+				C6B8E8E6C180B4DDDAC5AF90 /* Pods-testTaskCreatex.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F5920C082438E18500B5F075 = {
 			isa = PBXGroup;
 			children = (
 				F5920C132438E18500B5F075 /* testTaskCreatex */,
-				F5920C122438E18500B5F075 /* Products */,
+				F57E5475243CACB700F0CC51 /* testTaskCreatex.app */,
+				296810309175356206D8D50E /* Pods */,
+				1F88C72CBF0ECE7D1211DA54 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		F5920C122438E18500B5F075 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				F5920C112438E18500B5F075 /* testTaskCreatex.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		F5920C132438E18500B5F075 /* testTaskCreatex */ = {
@@ -58,13 +108,94 @@
 			children = (
 				F5920C142438E18500B5F075 /* AppDelegate.swift */,
 				F5920C162438E18500B5F075 /* SceneDelegate.swift */,
-				F5920C182438E18500B5F075 /* ViewController.swift */,
-				F5920C1A2438E18500B5F075 /* Main.storyboard */,
-				F5920C1D2438E18800B5F075 /* Assets.xcassets */,
-				F5920C1F2438E18800B5F075 /* LaunchScreen.storyboard */,
+				F5920C3C243B35F100B5F075 /* Loading */,
+				F5920C3B243B35E800B5F075 /* Weather */,
+				F5920C32243AA56500B5F075 /* PageControllers */,
+				F5920C30243AA54300B5F075 /* Service */,
+				F5920C31243AA55100B5F075 /* Supporting */,
+				F5920C4E243B7CBA00B5F075 /* ExtensionHelpers */,
 				F5920C222438E18800B5F075 /* Info.plist */,
+				F57E5476243CACC400F0CC51 /* GoogleService-Info.plist */,
 			);
 			path = testTaskCreatex;
+			sourceTree = "<group>";
+		};
+		F5920C30243AA54300B5F075 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C2E243AA07A00B5F075 /* Location.swift */,
+				F5920C48243B772500B5F075 /* BackgroundActivites.swift */,
+				F5920C42243B548E00B5F075 /* NetworkService.swift */,
+				F5920C44243B55ED00B5F075 /* NetworkDataFetcher.swift */,
+				F5920C3D243B48C900B5F075 /* API.swift */,
+				F5920C33243B24FD00B5F075 /* RootViewController.swift */,
+				F5920C2C243A951200B5F075 /* Controllers.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F5920C31243AA55100B5F075 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C1D2438E18800B5F075 /* Assets.xcassets */,
+				F5920C1F2438E18800B5F075 /* LaunchScreen.storyboard */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		F5920C32243AA56500B5F075 /* PageControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C1A2438E18500B5F075 /* Main.storyboard */,
+				F5920C282438E1EB00B5F075 /* TutorialPageViewController.swift */,
+				F5920C182438E18500B5F075 /* FirstTutorialViewController.swift */,
+				F5920C2A2438E2A800B5F075 /* SecondTutorialViewController.swift */,
+			);
+			path = PageControllers;
+			sourceTree = "<group>";
+		};
+		F5920C3B243B35E800B5F075 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C4F243BA96500B5F075 /* Model */,
+				F5920C37243B348100B5F075 /* WeatherViewController.swift */,
+				F5920C39243B35DF00B5F075 /* Weather.storyboard */,
+			);
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		F5920C3C243B35F100B5F075 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C41243B493D00B5F075 /* Model */,
+				F5920C35243B2D2300B5F075 /* LoadingViewController.swift */,
+				F5920C4A243B7AB200B5F075 /* Loading.storyboard */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		F5920C41243B493D00B5F075 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C3F243B493500B5F075 /* WeatherAPI.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F5920C4E243B7CBA00B5F075 /* ExtensionHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C4C243B7CB700B5F075 /* NotificationName.swift */,
+			);
+			path = ExtensionHelpers;
+			sourceTree = "<group>";
+		};
+		F5920C4F243BA96500B5F075 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F5920C46243B57BF00B5F075 /* WeatherInformation.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F5920C252438E18800B5F075 /* Build configuration list for PBXNativeTarget "testTaskCreatex" */;
 			buildPhases = (
+				A8C2F9EA4281B9EBC8D5CBBA /* [CP] Check Pods Manifest.lock */,
 				F5920C0D2438E18500B5F075 /* Sources */,
 				F5920C0E2438E18500B5F075 /* Frameworks */,
 				F5920C0F2438E18500B5F075 /* Resources */,
+				5A19456B05D7A44C67F5D4D6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -84,7 +217,7 @@
 			);
 			name = testTaskCreatex;
 			productName = testTaskCreatex;
-			productReference = F5920C112438E18500B5F075 /* testTaskCreatex.app */;
+			productReference = F57E5475243CACB700F0CC51 /* testTaskCreatex.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -111,7 +244,7 @@
 				Base,
 			);
 			mainGroup = F5920C082438E18500B5F075;
-			productRefGroup = F5920C122438E18500B5F075 /* Products */;
+			productRefGroup = F5920C082438E18500B5F075;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -126,21 +259,80 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5920C212438E18800B5F075 /* LaunchScreen.storyboard in Resources */,
+				F57E5477243CACC400F0CC51 /* GoogleService-Info.plist in Resources */,
+				F5920C3A243B35DF00B5F075 /* Weather.storyboard in Resources */,
 				F5920C1E2438E18800B5F075 /* Assets.xcassets in Resources */,
+				F5920C4B243B7AB200B5F075 /* Loading.storyboard in Resources */,
 				F5920C1C2438E18500B5F075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5A19456B05D7A44C67F5D4D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testTaskCreatex/Pods-testTaskCreatex-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-testTaskCreatex/Pods-testTaskCreatex-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-testTaskCreatex/Pods-testTaskCreatex-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C2F9EA4281B9EBC8D5CBBA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-testTaskCreatex-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F5920C0D2438E18500B5F075 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5920C192438E18500B5F075 /* ViewController.swift in Sources */,
+				F5920C49243B772500B5F075 /* BackgroundActivites.swift in Sources */,
+				F5920C45243B55ED00B5F075 /* NetworkDataFetcher.swift in Sources */,
+				F5920C4D243B7CB700B5F075 /* NotificationName.swift in Sources */,
+				F5920C3E243B48C900B5F075 /* API.swift in Sources */,
+				F5920C192438E18500B5F075 /* FirstTutorialViewController.swift in Sources */,
+				F5920C2D243A951200B5F075 /* Controllers.swift in Sources */,
 				F5920C152438E18500B5F075 /* AppDelegate.swift in Sources */,
+				F5920C292438E1EB00B5F075 /* TutorialPageViewController.swift in Sources */,
+				F5920C2B2438E2A800B5F075 /* SecondTutorialViewController.swift in Sources */,
+				F5920C38243B348100B5F075 /* WeatherViewController.swift in Sources */,
+				F5920C36243B2D2300B5F075 /* LoadingViewController.swift in Sources */,
 				F5920C172438E18500B5F075 /* SceneDelegate.swift in Sources */,
+				F5920C47243B57BF00B5F075 /* WeatherInformation.swift in Sources */,
+				F5920C40243B493500B5F075 /* WeatherAPI.swift in Sources */,
+				F5920C34243B24FD00B5F075 /* RootViewController.swift in Sources */,
+				F5920C43243B548E00B5F075 /* NetworkService.swift in Sources */,
+				F5920C2F243AA07A00B5F075 /* Location.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +474,11 @@
 		};
 		F5920C262438E18800B5F075 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DBDE22CCBBDC0ED7F69BF84 /* Pods-testTaskCreatex.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CNUVF272Y;
 				INFOPLIST_FILE = testTaskCreatex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +493,11 @@
 		};
 		F5920C272438E18800B5F075 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6B8E8E6C180B4DDDAC5AF90 /* Pods-testTaskCreatex.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3CNUVF272Y;
 				INFOPLIST_FILE = testTaskCreatex/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
